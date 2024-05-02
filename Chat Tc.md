@@ -1,6 +1,5 @@
-
 perfiles = {}
-
+print (" ✨ BIENVENIDO A CHAT TC ✨ ")
 def crear_perfil():
     nombre = input("Ingrese su nombre: ")
     edad = input("Ingresa su edad: ")
@@ -9,7 +8,8 @@ def crear_perfil():
     telefono = input("Ingrese su numero (presione enter para omitir): ")
     if not telefono:
         telefono = "no proporcionado"
-    print ('perfil creado exitosamente')
+        print ('perfil creado con exito' ) 
+    
     perfiles[nombre] = {'Edad': edad, 'Hobbys': hobbys, 'Carrera': carrera, 'Teléfono': telefono}
 
 def buscar_perfil():
